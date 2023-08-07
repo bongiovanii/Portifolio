@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -8,6 +10,41 @@ a{
     text-decoration: none;
     transition: 0.3s;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    padding: top 20vh;
+    text-align: left;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 100px;
+    font-family: 'Satisfy', cursive;
+    padding:  25vh;
+    text-align: left;
+    color: rgb(255, 255, 21);
+
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family:Roboto;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
 
 a:hover{
     opacity: 0.5;
@@ -42,11 +79,4 @@ main{
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
-}
-
-.texto{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    font-weight: 100px;
 }
